@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus | Login</title>
+    <link rel="shortcut icon" href="./assets/compiled/svg/favicon.svg" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="vendor/fontawesome/css/all.min.css" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="vendor/style.css" />
+</head>
+
+<body>
+    
+    <div class="login position-absolute top-50 start-50 translate-middle">
+        <div class="login-logo">
+            <!-- <i class="fa-solid fa-dice-d6"></i> -->
+            <img src="vendor/images/favicon.png" width="20px">
+            <span class="text">XFOCUS</span>
+        </div>
+        <div class="login-top">
+            <h1>Login</h1>
+            <p>Selamat Datang! Silahkan masukkan data anda dengan benar.</p>
+        </div>
+        <form class="login-form" action="login.html">
+            <div class="input-group mb-3">
+                <span class="input-group-text px-3 bg-white"><i class="fa-solid fa-building"></i></span>
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Nomor Client" pattern="[0-9]+" minlength="6" required>
+                  <label for="floatingInputGroup1">Nomor Client</label>
+                </div>
+            </div>
+            <div class="login-check d-flex justify-content-between">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Remember me
+                    </label>
+                </div>
+                <a href="forgot-password.html">Forgot Password</a>
+            </div>
+            <button class="btn btn-primary w-100 my-3 py-2">Lanjut</button>
+            <p class="p-text">©2017 All Rights Reserved. Tiga Inti Perkasa Tech Privacy and Terms</p>
+        </form>
+    </div>
+
+    <!-- Bootstrap JQuery dan Javascript -->
+    <script src="vendor/js/bootstrap.bundle.js"></script>
+
+    <!-- Script -->
+    <script src="vendor/script.js"></script>
+</body>
+</html>
